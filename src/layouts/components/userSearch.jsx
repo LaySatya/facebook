@@ -4,13 +4,13 @@ function UserSearch() {
   return (
     <>
         <div className="w-72">
-            <div className="flex justify-between items-center mb-5">
+            <div className="flex justify-between items-center mb-0">
                 <h2 className="text-lg font-semibold">Recent</h2>
                 <a className="text-blue-500" href="#">
                 Edit
                 </a>
             </div>
-            <div className="lg:space-y-2 space-y-1">
+            <div className="lg:space-y-2 space-y-1 -mb-14">
                 {/* Example item */}
                 <div className="flex items-center justify-between hover:bg-slate-100 rounded-md p-2 cursor-pointer">
                     <div className="flex items-center space-x-3">
